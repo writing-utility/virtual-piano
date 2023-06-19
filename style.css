@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /*background-color: #0066ff;*/
+    background-color: #1c1d21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#piano {
+    display: flex;    
+}
+
+#piano .white {
+    width: 45px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: #edeff1;
+    border: solid 1px #363636;
+    z-index: 1;
+    box-shadow: 0 5px 0 #0000007e;
+    cursor: pointer;
+}
+
+#piano .black {
+    width: 30px;
+    height: 125px;
+    border-radius: 4px;
+    background-color: #202020;
+    z-index: 2;
+    margin: 0 -15px;
+    box-shadow: 0 5px 0 #0000007e;
+    cursor: pointer;
+}
